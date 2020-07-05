@@ -1,54 +1,72 @@
+/* GERAL */
+:root {
+    --dark-grey: rgb(75, 75 ,75);
+}
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
 
-.header {
+/* HEADER */
+
+header {
     background-color: #020202;
+
     color: antiquewhite;
-    height:5em;
+    height:4em;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 0 20px;
     font-weight: bold;
 }
-/* 
-.left {
-    position: absolute;
+
+header .left {
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+header .left img {
+    padding: 10px;
     float: left;
+    margin-right: 10px;
 }
 
-.left p {
-    float: right;
+header .left p {
+    margin-top: 22px;
 }
 
-.right {
-    position: absolute;
-    float: right;
-} */
+/* SEÇÃO 1 */
 
 .container_up {
     background-image: url("../../public/assets/library.jpg");
-    height: 40em;
-    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120vh;
     color: antiquewhite;
-    padding: 80px 46px;
+    padding: 80px 60px;
 }
 
 .container_up div {
-    padding: 20px;
-    width: 300px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 24px;
+    width: 280px;
+    border-radius: 6px;
 }
 
 .container_up h1 {
-    margin-bottom: 20px;;
+    margin-bottom: 15px;
 }
 
-.container_up button {
+.btn {
     background-color: darkorange;
+    width: 100%;
     color: black;
     font-weight: bold;
     margin-top: 32px;
@@ -56,3 +74,142 @@
     border: none;
     border-radius: 6px;
 }
+
+.reta {
+    background-color: antiquewhite;
+    color: antiquewhite;
+    width: 33%;
+    height: 3px;
+    border-style: none;
+    margin-top: 25px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+/* SEÇÃO 2 - SOBRE NÓS */
+
+.container_middle {
+    padding: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color: var(--dark-grey);
+}
+
+.container_middle h2, h3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 24px;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 20vw;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.cards img {
+    width: 50px;
+    margin: 10px auto;
+}
+
+.cards p {
+    padding: 10px;
+}
+
+.cards button {
+    width: 20%;
+    height: 3px;
+    background-color: rgb(75, 75, 75);
+    border: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.small {
+    font-size: 75%;
+    margin-bottom: 10px;
+}
+
+
+/*  SEÇÃO 3 - LARANJA */
+
+.container_bottom {
+    background-color: orange;
+    color: var(--dark-grey);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container_bottom main {
+    padding: 10px;
+}
+
+.traco {
+    width: 35px;
+    height: 3px;
+    background-color: rgb(75, 75, 75);
+    border: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.internal img {
+    float: left;
+    width: 80px;
+    height: 100%;
+    max-height: 80px;
+    padding-right: 10px;
+}
+
+.container_bottom aside {
+    padding: 10px;
+}
+
+.black {
+    background-color: black;
+    color: antiquewhite;
+    padding: 20px 15px 15px 15px;
+    border-radius: 6px;
+}
+
+.black input {
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    font-size: smaller;
+    border-style: none;
+    border-radius: 4px;
+    box-sizing: border-box; /* garante que o padding estará incluso no width total*/
+}
+
+.black textarea {
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    font-size: smaller;
+    border-style: none;
+    border-radius: 4px;
+    box-sizing: border-box; /* garante que o padding estará incluso no width total*/
+}
+
+.black button {
+    background-color: orange;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: small;
+    padding: 5px;
+}
+
