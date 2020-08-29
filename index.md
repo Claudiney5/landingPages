@@ -5,29 +5,15 @@ Repository for exercices about landing pages and pratice of HTML, CSS, JavaScrip
 Repositório de exercícios de construção de páginas simples e práticas de HTML, CSS, JavaScript, jQuery, Bootstrap e mais...
 
 
-### Markdown
+### Law office (Escritório de Advocacia)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Landing page for small law office.
 
-```markdown
-Syntax highlighted code block
+Página de entrada para um pequeno escritório de advocacia.
 
-# Header 1
-## Header 2
-### Header 3
+[HTML, CSS, JavaScript, Jquery]
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[Law office page](https://https://github.com/Claudiney5/landingPages/blob/master/Advocacia/src/views/index.html).
 
 ### Jekyll Themes
 
