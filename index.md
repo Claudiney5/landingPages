@@ -13,7 +13,7 @@ Página de entrada para um pequeno escritório de advocacia.
 
 [HTML, CSS, JavaScript, Jquery]
 
-[Law office page](https://https://github.com/Claudiney5/landingPages/blob/master/Advocacia/src/views/index.html).
+[Law office page](https://github.com/Claudiney5/landingPages/blob/master/Advocacia/src/views/index.html).
 
 ### Jekyll Themes
 
