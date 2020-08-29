@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## Simple Landing Pages
 
-You can use the [editor on GitHub](https://github.com/Claudiney5/landingPages/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Repository for exercices about landing pages and pratice of HTML, CSS, JavaScript, jQuery, Bootstrap and so...
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Repositório de exercícios de construção de páginas simples e práticas de HTML, CSS, JavaScript, jQuery, Bootstrap e mais...
+
 
 ### Markdown
 
